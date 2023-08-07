@@ -1,0 +1,59 @@
+/* ## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+    }
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: var(--Lightgray);
+}
+
+.mainContainer{
+    width: 25%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 5px;
+    background-color: var(--White);
+    border-radius: 25px;
+}
+
+.heading{
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 20px;
+    color: var(--Darkblue);
+}
+
+.content{
+    padding: 30px;
+    color: var(--Grayishblue);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+img{
+    width: 300px;
+    height: fit-content;
+    margin: 20px auto;
+    border-radius: 20px;
+
+}
+
+
+
+
