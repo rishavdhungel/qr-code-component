@@ -46,10 +46,13 @@ body{
     font-weight: 400;
     margin-bottom: 10px;
 }
-img{
-    width: 300px;
-    height: fit-content;
+.imagecontent{
     margin: 20px auto;
+    width: 90%;
+}
+img{
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 
 }
